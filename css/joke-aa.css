@@ -1,0 +1,13 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.button {
+    
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin: auto;
+}

@@ -1,0 +1,53 @@
+body {
+  min-height: 100vh;
+  background-image: url("../Images/Logo_Hintergrund.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+#main-nav {
+  border-top: 3px solid rgb(104, 20, 20);
+  border-bottom: 3px solid rgb(104, 20, 20);
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+#main-nav li {
+  border: 2px solid white;
+  padding: 10px;
+}
+#main-nav li a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+#main-nav li a:hover {
+  color: brown;
+}
+.parallax-imp {
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+.parallax-imp p {
+  color: aliceblue;
+  padding-left: 200px;
+justify-content: space-around;
+}
+.impressum {
+  margin-top: 5px;
+}
+
